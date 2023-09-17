@@ -1,0 +1,39 @@
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100vh; /* Center vertically in the viewport */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    .icon-link i {
+        font-size: 36px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .icon-link .icon-text {
+        font-size: 16px;
+    }
+
+    /* Hover effects */
+    .icon-link:hover {
+        background-color: #007bff; /* Change background color on hover */
+        color: #fff; /* Change text color on hover */
+        transform: scale(1.05); /* Add a slight scale effect on hover */
+    }
